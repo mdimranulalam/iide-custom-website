@@ -1,0 +1,47 @@
+/* Mobile Device */
+@media only screen and (max-width: 576px) {
+    /* Section - 1 */
+    .section-1{
+        background-image: none;
+    }
+    .section-1-padding-hide{
+        padding: 0;
+    }
+    .section-child-1{
+        width: 100% !important;
+    }
+    .main-logo{
+        margin: 0 auto;
+        width: 220.913px;
+    }
+    .main-title{
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 1.2em;
+        padding-top: 20px;
+        text-align: center;
+    }
+    .main-description{
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+    .agreement{
+        text-align: center;
+        padding-bottom: 0;
+    }
+    .section-1-buttons{
+        padding-top: 0px !important;
+        margin: 0 auto;
+    }
+    .deadline-title{
+        text-align: center;
+    }
+    .mobile-bg-img{
+        background-image: url("../images/IIDE-Homepage-PG-background-2.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        padding-bottom: 300px;
+    }
+}

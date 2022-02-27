@@ -20,6 +20,8 @@
 
     <!-- CSS Link -->
     <link rel="stylesheet" href="styles/style.css">
+    <!-- Responsive CSS  -->
+    <link rel="stylesheet" href="styles/responsive.css">
 
     <!-- Animate Style CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
@@ -31,7 +33,7 @@
         ----------------------------------------- -->
         <section id="section-1">
             <div class="section-1 overflow-hidden d-flex justify-content-between">
-                <div class="container">
+                <div class="container container-md container-xl container-xxl section-1-padding-hide">
                     <div class="section-child-1 w-50">
                         <!-- SVG Logo -->
                         <div class="main-logo mt-5 mb-3">
@@ -326,35 +328,47 @@
                                 </i:aipgf>
                             </svg>
                         </div>
-                        <!-- Main Title -->
-                        <h1 class="main-title">
-                            MBA Level Post Graduation Programme in Digital Marketing
-                        </h1>
-                    
-                        <!-- Main Section Details -->
-                        <p class="main-description pb-3">This MBA in Digital Marketing helps you master the latest digital marketing and
-                            managerial skills. Get assured
-                            placements with a mandatory 2-month internship.</p>
-                    
-                        <h5 class="dealing-title pb-2 pt-2">
-                            Final Application Deadline: Mar 10, 2022
-                        </h5>
-
-                        <!-- Main Website Buttons -->
-                        <div class="section-1-buttons pt-2 mb-4">
-                            <button class="btn px-3 py-2 button-1 me-3" data-bs-toggle="modal" data-bs-target="#myModal">Download Brochure</button>
-                            <a href="#contact-form" class="btn px-3 py-2 button-2">Apply Now</a>
+                        <div class="mobile-bg-img">
+                            <!-- Main Title -->
+                            <h1 class="main-title w-100">
+                                MBA Level Post Graduation Programme in Digital Marketing
+                            </h1>
+                            
+                            <!-- Main Section Details -->
+                            <p class="main-description pb-3">This MBA in Digital Marketing helps you master the latest digital marketing and
+                                managerial skills. Get assured
+                                placements with a mandatory 2-month internship.</p>
+                            
+                            
+                            <div class="website-button-and-agreement d-flex flex-column align-items-center">
+                            
+                            
+                                <h5 class="dealing-title pb-2 pt-2 order-3 order-md-1">
+                                    Final Application Deadline: Mar 10, 2022
+                                </h5>
+                            
+                                <!-- Main Website Buttons -->
+                                <div class="section-1-buttons pt-2 mb-4 order-2 order-md-2">
+                                    <button class="btn px-3 py-2 button-1 me-3" data-bs-toggle="modal" data-bs-target="#myModal">Download
+                                        Brochure</button>
+                                    <a href="#contact-form" class="btn px-3 py-2 button-2 d-none d-md-inline">Apply Now</a>
+                                </div>
+                            
+                            
+                            
+                                <div class="agreement pt-2 mb-4 order-1 order-md-3 d-flex flex-column justify-content-center">
+                                    <p class="d-block d-md-inline d-lg-inline">Our certification is in Alignment with | </p>
+                                    <div>
+                                        <img src="images/logo/mba-in-digital-marketing-Certificate-Alignment-with-Google.png"
+                                            class="agreement-img-1 ms-2" alt="">
+                                        <img src="images/logo/mba-in-digital-marketing-Certificate-Alignment-Facebook.png" class="agreement-img-2"
+                                            alt="">
+                                    </div>
+                            
+                                </div>
+                            </div>
                         </div>
-                    
-
                         
-                        <div class="agreement pt-2 mb-4">
-                            <p class="d-inline">Our certification is in Alignment with | </p>
-                            <img src="images/logo/mba-in-digital-marketing-Certificate-Alignment-with-Google.png"
-                                class="agreement-img-1 ms-2" alt="">
-                            <img src="images/logo/mba-in-digital-marketing-Certificate-Alignment-Facebook.png" class="agreement-img-2"
-                                alt="">
-                        </div>
                     </div>
                     
                     <div class="section-child-2 w-50">
@@ -362,7 +376,7 @@
                     </div>
                 </div>
             </div>
-                <div class="batch-info">
+                <div class="batch-info d-none">
                     <div class="batch-info-items container d-flex justify-content-around align-items-center">
                         <div class="batch-info-item">
                             <h4 class="batch-info-title">Only 35</h4>
@@ -2342,6 +2356,11 @@
 
     <!-- Counter Script File -->
     <script src="js/counter.js"></script>
+
+    <!-- From Input JS File -->
+    <script src="js/form-input.js"></script>
+
+
     <!-- Bootstrap JS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"

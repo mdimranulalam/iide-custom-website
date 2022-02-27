@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap');
 
 /*-------- Common CSS --------*/
+
 h1,h2,h3,h4,h5,h6{
     color: #222222;
 }
@@ -34,7 +35,6 @@ h1,h2,h3,h4,h5,h6{
 .main-logo{
     width: 187.913px;
     height: 83.513px;
-    
 }
 .main-title{
     font-family: Arial, Helvetica, sans-serif;
