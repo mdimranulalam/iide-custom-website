@@ -269,4 +269,31 @@
     .admission-eligibility-info{
         font-size: 14px;
     }
+
+
+    /* Carousel */
+
+    .review-item{
+        width: 100%;
+        height: 560px;
+    }
+    .student-id-rating{
+        column-gap: 30px;
+    }
+    .student-name-linkedin{
+        padding-top: 10px;
+    }
+    .r-student-title{
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    /* Carusel Icon */
+    .carousel-control-prev-icon {
+        left: -40px;
+    }
+    .carousel-control-next-icon {
+        right: -40px;
+    }
+
 }
