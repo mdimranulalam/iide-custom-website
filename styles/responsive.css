@@ -173,4 +173,22 @@
     .learning-link{
         height: 160px;
     }
+
+    /* Mentors */
+    .section-3-mentors{
+        background-color:#f8f9fa!important;
+    }
+
+    .mentor-description{
+        font-size: 14px;
+    }
+    .mentor{
+        background-color: white;
+        margin-right: 20px;
+    }
+    .mentors-scrolling{
+        width: max-content;
+        flex-wrap: unset;
+        overflow: scroll;
+    }
 }
