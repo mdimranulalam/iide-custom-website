@@ -239,4 +239,17 @@
         font-size: 14px;
         padding-bottom: 10px;
     }
+
+    /* Section-7 */
+    .super-mentors-description{
+        font-size: 14px;
+    }
+
+    .s-mentor-image{
+        flex-wrap: nowrap;
+        width: fit-content;
+    }
+    .super-mentor-image{
+        margin-right: 30px;
+    }
 }
