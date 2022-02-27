@@ -152,4 +152,25 @@
     .counter-button{
         padding: 10px 15px 10px 15px;
     }
+
+    /* Section- 3 */
+    .tools{
+        row-gap: 50px;
+        flex-wrap: wrap;
+    }
+    .tools-item img{
+        width: 75px;
+    }
+    .button-5{
+        font-size: 20px !important;
+        font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+        font-weight: 700;
+        background-color: #ffffff;
+        color: #0072bd;
+        padding: 10px 30px 10px 30px;
+        line-height: 20px;
+    }
+    .learning-link{
+        height: 160px;
+    }
 }
