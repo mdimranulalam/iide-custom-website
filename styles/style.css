@@ -1,0 +1,1047 @@
+/* Google Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+/*-------- Common CSS --------*/
+h1,h2,h3,h4,h5,h6{
+    color: #222222;
+}
+.title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #000000;
+    line-height: 1.8em;
+    font-weight: 500;
+    padding-bottom: 10px;
+    padding: 27px 0px;
+}
+.title::after{
+    display: table;
+    content: "";
+    border-top: 2px solid #0072bd;
+    width: 95px;
+    margin: 15px 5px 15px 5px;
+}
+
+/*--------------------------------
+++++++++  Section 1 CSS  +++++++++
+---------------------------------*/
+.section-1{
+    background-image: url("../images/MBA-in-Digital-Marketing-Desktop-Banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 90%;
+}
+.main-logo{
+    width: 187.913px;
+    height: 83.513px;
+    
+}
+.main-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    line-height: 1em;
+    padding-bottom: 10px;
+}
+.main-description{
+    font-size: 100%;
+}
+.dealing-title{
+    font-size: 16px;
+    color: #E02B20;
+    font-weight: 700;
+    line-height: 16px;
+    outline-color: rgb(224, 43, 32);
+}
+.button-1{
+    background-color: #0072bd;
+    border-color: #0072bd;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 4px;
+    font-family: "Roboto", arial;
+    font-weight: 700;
+}
+
+/* Buttons */
+.button-1:hover{
+    background-color: #0072bd;
+    border-color: #0072bd;
+    color: #ffffff;
+}
+.button-1:focus{
+    box-shadow: none;
+}
+.button-2{
+    background-color: #ffffff;
+    border-color: #0072bd;
+    color: #0072bd;
+    font-size: 20px;
+    border-radius: 4px;
+    font-family: "Roboto", arial;
+    font-weight: 700;
+    border: 2px solid;
+}
+.button-2:hover{
+    background-color: #ffffff;
+    border-color: #0072bd;
+    color: #0072bd;
+}
+.button-2:focus{
+    box-shadow: none;
+}
+.agreement{
+    padding-bottom: 70px;
+}
+.agreement p{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Arial;
+    line-height: 1.8em;
+    color: #222222;
+    text-shadow: 1px 1px 24px #222222;
+}
+.agreement-img-2{
+    width: 100px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+.batch-info{
+    background-color: #27aae1;
+    padding-top: 54px;
+    padding-bottom: 30.375px;
+}
+.batch-info-items{
+    background-color: #ffffff;
+    padding: 20px 20px 20px 20px;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px 1px rgb(60 64 67 / 8%), 0 1px 3px 1px rgb(60 64 67 / 16%);
+    position: relative;
+    margin-top: -120px;
+}
+.batch-info-title {
+    font-family: 'Open sans', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+}
+.batch-info-description{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28.8px;
+}
+
+
+/*--------------------------------
+++++++++  Section 2 CSS  +++++++++
+---------------------------------*/
+#section-2{
+    background-color: #F8F9FA;
+}
+.button-3 {
+    background-color: #0072bd;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 2px;
+    font-family: "Roboto", arial;
+    font-weight: 700;
+    border: none;
+    padding: 5px 25px;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+}
+/* Buttons */
+.button-3:hover{
+    background-color: #0072bd;
+    color: #ffffff;
+}
+.button-3:focus{
+    box-shadow: none;
+}
+
+.placement-item > ul{
+    padding-left: 0px;
+}
+.placement-list{
+    list-style: none;
+    padding-bottom: 10px;
+    line-height: 26px;
+    color: #222222;
+    font-weight: 500;
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 16px;
+}
+
+.placement-list::before{
+    content: " ";
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    height: 1.2em;
+    width: 0.5em;
+    border-bottom: 0.2em solid #0072bd;
+    border-right: 0.2em solid #0072bd;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.placement-box{
+    background-color: #ffffff;
+}
+.placement-box-item{
+    padding: 30px 16px 30px 16px;
+    margin-top: -30px;
+    box-shadow: 0px 1px 3px 1px rgb(0 0 0 / 6%);
+}
+.placement-box-item > p > strong{
+    font-weight: 700;
+    font-size: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 28.8px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.marketing-details{
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+    line-height: 1.8em;
+    color: #222222;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* Accordion Styles */
+
+.accordion-list li{
+    list-style: none;
+}
+.accordion-button{
+    width: 630px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.accordion-button:focus {
+    z-index: 0;
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
+.accordion-button:not(.collapsed){
+    background-color: #27aae1;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+    color: white;
+    box-shadow: 0px 12px 14px -6px rgb(0 0 0 / 15%);
+    padding: 20px;
+    /* margin: -10px; */
+}
+
+/* Counter Style */
+.counter-box-item-child{
+    padding: 30px 30px 30px 30px;
+    border: 1px solid #ffffff2f;
+    width: 200px;
+    height: auto;
+    background-image: linear-gradient(90deg,#0072bd 0%,#23a6de 100%)!important;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.counter-box-item-child > h2{
+    text-align: center;
+    text-shadow: 0em 0em 0.3em rgb(0 0 0 / 40%);
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 72px;
+    color: #fff;
+    margin-bottom: 20px;
+
+}
+.counter-box-item-child > p{
+    color: white;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18.2px;
+    letter-spacing: 0.5px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+/* Counter Download Box */
+.counter-download-box{
+    position: relative;
+    padding: 15px;
+    background-color: white;
+    border-radius: 20px;
+    top: -20px;
+    left: -20px;
+}
+.download-box{
+    background-image: none !important;
+    background-color: white;
+    padding: 30px 0px;
+}
+
+.counter-download-title{
+    font-size: 30px !important;
+    color: #0072bd !important;
+    line-height: 42px !important;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    text-shadow: none !important;
+}
+.download-box > p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #222222;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 16px;
+    padding-bottom: 16px;
+}
+.counter-button{
+    background-color: #0072bd;
+    border: none;
+    color: #ffffff;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1;
+    line-height: 23.8px;
+    padding: 15px 20px 15px 20px;
+    border-radius: 5px;
+}
+/*--------------------------------
+++++++++  Section 3 CSS  +++++++++
+---------------------------------*/
+.tools{
+    margin-bottom: 90px;
+}
+.button-4{
+    border-width: 0px;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    background-color: #0072bd;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    margin-bottom: 90px !important;
+}
+.button-4:hover{
+    background-color: #0072bd;
+    color: white;
+}
+
+/* Learning Link */
+.learning-link{
+    height: 185px;
+    background-image: linear-gradient(90deg,#0072bd 0%,#23a6de 100%)!important;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.learning-link-title{
+    line-height: 1.4em;
+    color:#ffffff;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+.button-5{
+    border-width: 0px;
+    border-radius: 2px;
+    font-size: 22px;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    background-color: #ffffff;
+    color: #0072bd;
+    padding: 10px 30px 10px 30px;
+    line-height: 1.5em;
+    padding: 6.600px 22px 6.600px 22px;
+}
+.button-5:hover{
+    background-color: #ffffff;
+    color: #0072bd;
+}
+
+
+
+/* Mentors */
+.mentor-description{
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+}
+.mentor{
+    box-shadow: 5px 5px 25px 0 rgb(46 61 73 / 20%);
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 14px;
+    color: #58595b;
+    line-height: 1.2em;
+    font-weight: 500;
+    width: 240px;
+    height: 328px;
+    border-top: 3px solid #0072bd;
+    border-radius: 10px;
+}
+.mentor-image{
+    border-radius: 50%;
+    margin-top: -30px;
+    animation: fadeTop 1s 1 cubic-bezier(.77,0,.175,1);
+}
+.mentor-name{
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    color: #000000;
+    line-height: 18px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+/*--------------------------------
+++++++++  Section 4 CSS  +++++++++
+---------------------------------*/
+#section-4{
+    background-color: #f8f9fa;
+}
+.live-project-description{
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+    color: #222222;
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 16px;
+    line-height: 28.8px;
+    width: 540px;
+}
+
+/*--------------------------------
+++++++++  Section 5 CSS  +++++++++
+---------------------------------*/
+.student-work-description{
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 28.8px;
+    color: #222222;
+    padding-bottom: 75px;
+}
+
+/* Section - 5 Icons */
+
+/* Students */
+.student-description{
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+}
+.student{
+    box-shadow: 0 1px 3px 1px rgb(0 0 0 / 6%);
+    font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px;
+    color: #58595b;
+    line-height: 1.2em;
+    font-weight: 500;
+    width: 240px;
+    height: 145px;
+    border-top: 3px solid #0072bd;
+    border-radius: 5px;
+}
+.student-image{
+    border-radius: 50%;
+    margin-top: -40px;
+}
+.student-name{
+    font-family: 'Roboto', Helvetica, Arial, Lucida, sans-serif;
+    color: #000000;
+    line-height: 18px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 5px;
+}
+.student-working{
+    width: 120px;
+}
+
+/* Post Graduate Certification CSS  */
+.certification-content{
+    column-gap: 30px;
+}
+.certification-description{
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+    line-height: 1.8em;
+    color: #222222;
+    font-weight: 500;
+}
+.certificate-title{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 27px;
+}
+
+/*--------------------------------
+++++++++  Section 6 CSS  +++++++++
+---------------------------------*/
+#seciton-6{
+    background-color: #F8F9FA;
+}
+.students-industry-items{
+    column-gap: 100px;
+}
+.industry-item-title{
+    padding-bottom: 16px;
+}
+.industry-item-title > span{
+    background-color: #0072bd;
+    color: #ffffff;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    text-align: center;
+    line-height: 28.8px;
+    font-weight: 500;
+}
+.industry-description > p{
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+    color: #222222;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28.8px;
+    text-align: center;
+}
+
+/*--------------------------------
+++++++++  Section 7 CSS  +++++++++
+---------------------------------*/
+.super-mentors-description{
+    color: #222222;
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28.8px;
+}
+
+/* Super Mentors */
+
+
+/* Super Mentors Background Image */
+.super-mentor-1{
+    background-image: url("../images/character/Digital-Marketing-Training-Online-Supersession-Speakers-Rahul-Vasu-1.png");
+}
+.super-mentor-2{
+    background-image: url("../images/character/Online-Digital-Marketing-Course-Supersession-Avinash-Janjire.png");
+}
+.super-mentor-3{
+    background-image: url("../images/character/mba-in-digital-marketing-SuperSessions-AKAIRA.png");
+}
+.super-mentor-4{
+    background-image: url("../images/character/Online-Digital-Marketing-Course-Supersession-Neelesh-Jain.png");
+}
+.super-mentor-background{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: auto;
+    padding-bottom: 30px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.137);
+}
+.super-mentor-details{
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 25px 10px 15px 10px;
+}
+.super-mentor-padding{
+    padding: 180px 15px 0px 15px;
+}
+.s-mentor-name{
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    color: #0072bd;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    font-family: 'Open Sans',Arial,sans-serif;
+}
+.s-mentor-position{
+    color: #000000;
+    font-family: 'Open Sans',Arial,sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 13px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+/* ADMISSION PROCESS AND ELIGIBILITY */
+.admission-eligibility-bg{
+    box-shadow: 0 1px 3px 1px rgb(60 64 67 / 8%), 0 1px 3px 1px rgb(60 64 67 / 16%);
+
+}
+.admission-eligibility-padding{
+    padding: 0px 35px 50px 35px;
+}
+.admission-eligibility-buttons{
+    height: 41.2px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 27.2px;
+    width: 175px;
+    border: none;
+    background-color: #0072bd;
+    border-radius: 3px;
+    color: black;
+    box-shadow: 0 1px 3px 1px rgb(60 64 67 / 8%), 0 1px 3px 1px rgb(60 64 67 / 16%);
+}
+.admission-eligibility-buttons-position{
+    margin-left: 35px;
+    position: relative;
+    top: -25px;
+}
+.admission-eligibility-buttons:hover{
+    color: #000000;
+}
+.nav-pills .nav-link {
+    border-radius: 3px;
+    background-color: #ffffff;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #0072bd;
+}
+.admission-eligibility-title{
+    color:#222222;
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28.8px;
+    margin-bottom: 0px;
+}
+.admission-eligibility-info{
+    color:#222222;
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28.8px;
+}
+
+
+
+/*--------------------------------
+++++++++  Section 8 CSS  +++++++++
+---------------------------------*/
+#section-8{
+    background-color: #f8f9fa;
+}
+
+/* Carousel */
+
+.review-item{
+    padding: 20px 20px 20px 20px;
+    border-bottom: 6px solid #0072bd;
+    border-radius: 3px;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 3px 1px rgb(208 200 200 / 24%);
+    width: 550px;
+    height: 350px;
+}
+.student-id-rating{
+    column-gap: 30px;
+}
+.r-student-image > img{
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+}
+.student-name-linkedin > h3{
+    color: #000000;
+    font-size: 20px;
+    padding-right: 5px;
+    font-family: 'Roboto' Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    line-height: 20px;
+}
+.linked-in-logo{
+    width: 19px;
+}
+.r-student-title{
+    color: #000000;
+    font-size: 15px;
+    font-family: 'Open sans' Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    font-weight: 500;
+}
+.stars{
+    column-gap: 1px;
+}
+.students-company-logo > img{
+    width: 73px;
+    height: 40px;
+}
+
+/* Carusel Icon */
+
+.carousel-control-prev-icon {
+    background-image: url(../images/left-arrow.svg);
+    position: relative;
+    left: -150px;
+}
+.carousel-control-next-icon {
+    background-image: url(../images/right-arrow.svg);
+    position: relative;
+    right: -150px;
+}
+
+
+/* Form Section */
+.form-left-bg{
+    background-image: linear-gradient(90deg, rgb(0, 114, 189) 0%, rgb(35, 166, 222) 100%);
+}
+.reg-fees-text{
+    font-family: 'Roboto' Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 28.8px;
+    color: #ffffff;
+    margin-bottom: 0px;
+}
+.form-bold-text{
+    font-weight: 700;
+    font-size: 28px;
+    color: #ffffff;
+    font-family: 'Roboto' Arial, Helvetica, sans-serif;
+    line-height: 28px;
+}
+.fees-start-date{
+    column-gap: 50px;
+}
+
+/* Features Include */
+.form-bg{
+    box-shadow: 0 6px 22px 0 rgb(0 0 0 / 8%);
+    border-radius: 3px;
+}
+.form-item{
+    padding: 40px;
+    padding: 40px 40px 40px 40px;
+}
+
+.include-title > h3{
+    color: #ffffff;
+    font-family: 'Roboto' Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+.include-title > h5{
+    color: #ffffff;
+    font-family: 'Roboto' Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 15px;
+    padding-bottom: 10px;
+}
+.included-list > ul{
+    padding-left: 0px;
+}
+
+.included-list > ul > li{
+    list-style: none;
+    color: #ffffff;
+    font-size: 16px;
+    margin: 5px 0 0;
+    line-height: 26px;
+    font-family: 'Roboto' Arial, Helvetica, sans-serif;
+}
+
+.included-list > ul > li::before{
+    content: " ";
+    position: relative;
+    top: 2px;
+    left: -15px;
+    display: inline-block;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    height: 1em;
+    width: 0.5em;
+    border-bottom: 0.2em solid #fff;
+    border-right: 0.2em solid #fff;
+    font-size: 15px;
+}
+
+/* Form Side */
+.form-item-bg{
+    width: 540px;
+}
+.form-title{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Roboto' Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+.form-nb{
+    color: red;
+    font-family: 'Roboto' Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.input-field{
+    padding: 8px;
+    height: 50px;
+    border-radius: 3px;
+    border: 1px solid #808080;
+    font-size: 15px;
+    color:#4e4e4e;
+    background-color: #ffffff;
+    font-family: 'Roboto' Arial, Helvetica, sans-serif;
+}
+
+.form-submit-button{
+    padding: 8px 50px;
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #0072bd;
+}
+
+
+/*--------------------------------
+++++++++  Section 9 CSS  +++++++++
+---------------------------------*/
+
+.placement-record-description{
+    color: #222222;
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28.8px;
+}
+.slider-bg{
+    position: relative;
+}
+.slider{
+    height: 150px;
+    margin: 20px auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    line-height: 1.8em;
+}
+.sliders, .slider-track{
+    -webkit-animation: scroll 40s linear infinite;
+    animation: scroll 40s linear infinite;
+    width: calc(250px * 14);
+}
+.sliders::before{
+    content: "";
+    height: 100px;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+}
+
+.sliders::after{
+    right: 0;
+    top: 0;
+    -webkit-transform: rotateZ(180deg);
+    transform: rotateZ(180deg);
+}
+
+.slides{
+    height: 100px;
+    width: 300px;
+}
+
+@-webkit-keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(calc(-250px * 7));
+            transform: translateX(calc(-250px * 7));
+  }
+}
+
+@keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(calc(-250px * 7));
+            transform: translateX(calc(-250px * 7));
+  }
+}
+
+
+/*--------------------------------
+++++++++  Section 10 CSS  +++++++++
+---------------------------------*/
+#section-10{
+    background-color: #f8f9fa;
+}
+
+/* FAQ Title And Description */
+.deadline{
+    font-weight: bold;
+    color: red;
+    font-family: 'Open Sans' Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-bottom: 10px;
+    line-height: 16px;
+    margin-bottom: 0px;
+}
+.faq-description{
+    color: #000000;
+    font-family: 'Open Sans' Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28.8px;
+}
+
+/* FAQ Timing Card */
+.faq-card{
+    width: 29.6667%;
+}
+.card-info{
+    padding: 10px;
+    
+    background-image: linear-gradient(90deg, rgb(0, 114, 189) 0%, rgb(35, 166, 222) 100%);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+}
+.card-info-small{
+    color: #fff;
+    font-family: 'Open sans' Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 0px;
+}
+.card-info-big{
+    color: #fff;
+    font-family: 'Open sans' Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+
+/* Accordion-button */
+
+.faq-accordion-button{
+    width: 100%;
+    letter-spacing: 0.8px;
+    font-weight: 500;
+    font-size: 17px;
+}
+.faq-accordion-button::after{
+    transform: rotate(-90deg);
+    transition: transform 0.5s ease-in-out;
+}
+.faq-accordion-button:not(.collapsed)::after{
+    transform: rotate(0deg);
+}
+.faq-accordion-button:not(.collapsed){
+    background-color: #fff;
+    color: #000000;
+}
+.faq-accordion-item{
+    border: none;
+}
+.question-answer{
+    color: #222222;
+    font-family: 'Roboto' Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28.8px;
+    padding: 24px 20px 24px 20px;
+    margin-bottom: 0px;
+}
+.question-answer > a{
+    text-decoration: none;
+    color: #2ea3f2;
+}
+
+
+/* Modal Form Styles */
+
+.modal-close-button-bg{
+    position: relative;
+    top: -35px;
+    left: 35px;
+    border-radius: 100% 100% 100% 100%;
+    overflow: hidden;
+    padding-top: 25px!important;
+    padding-right: 25px!important;
+    padding-bottom: 25px!important;
+    padding-left: 25px!important;
+    background-color: rgba(0, 0, 0, 0.219);
+}
+.modal-close-button{
+    position: relative;
+    color: white;
+}
+
+.modal-body-no-padding{
+    padding: 0px;
+}
+
+.batch-details-title{
+    font-size: 27px;
+    color: #ffffff;
+    font-family: 'Open Sans' Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    line-height: 27px;
+    font-weight: 500;
+    text-align: center;
+}
+.modal-table{
+    border: 1px solid #eee;
+    margin: 0 0 15px;
+    line-height: 19.2px;
+    font-size: 12px;
+    margin-top: 15.85px !important;
+    text-align: center !important;
+}
+.modal-table tr td{
+    color: white;
+    border-top: 1px solid #eee;
+    font-weight: 700;
+        border-right: 1px solid #fff;
+    padding: 6.313px 3.475px 6.313px 3.475px;
+}
+.modal-form-left{
+    width: 35%;
+}
+.modal-form-input{
+    width: 250px;
+}
