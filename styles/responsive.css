@@ -229,4 +229,14 @@
         padding-top: 30px;
         width: 300px;
     }
+
+
+    /* Section-6 */
+    .students-industry-items{
+        padding-top: 0px!important;
+    }
+    .industry-description{
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
 }
