@@ -252,4 +252,21 @@
     .super-mentor-image{
         margin-right: 30px;
     }
+
+
+    /* Admission Process and Eligibility */
+    .admission-eligibility-buttons{
+        font-size: 14px;
+        line-height: 27.2px;
+        width: 103px;
+        padding: 8px 14px 8px 14px !important;
+    }
+    .admission-eligibility-buttons-position{
+        margin-left: 0px;
+        position: none;
+        top:0;
+    }
+    .admission-eligibility-info{
+        font-size: 14px;
+    }
 }
