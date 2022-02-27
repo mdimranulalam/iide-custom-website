@@ -189,6 +189,34 @@
     .mentors-scrolling{
         width: max-content;
         flex-wrap: unset;
-        overflow: scroll;
+        /* overflow: hidden; */
+    }
+
+
+    /* Section-4  */
+    #section-4{
+        background-color: white;
+    }
+    .live-project-description{
+        font-size: 14px;
+        text-align: left;
+        width: 295px;
+    }
+    .live-project-item img{
+        width: 300px;
+        height: 152.938px;
+    }
+
+
+    /* Section-5 */
+    .student-work-description{
+        font-size: 14px;
+    }
+    .student-scrolling{
+        width: max-content;
+        flex-wrap: nowrap;
+    }
+    .student{
+        margin-right: 30px;
     }
 }
