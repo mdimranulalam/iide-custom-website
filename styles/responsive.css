@@ -68,4 +68,26 @@
         padding-top: 30px;
         padding-bottom: 30px;
     }
+    
+
+
+    /* Section-2 Responsive */
+    .title{
+        font-size: 22px;
+        line-height: 33px;
+        padding-bottom: 10px;
+        padding-top: 0px;
+    }
+    #section-2{
+    background-color: white;
+    }
+    .placement-box-item p strong{
+        font-weight: 600 !important;
+        letter-spacing: -0.8px;
+    }
+    .marketing-details{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 25px;
+    }
 }
