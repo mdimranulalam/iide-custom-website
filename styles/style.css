@@ -261,7 +261,16 @@ h1,h2,h3,h4,h5,h6{
     line-height: 72px;
     color: #fff;
     margin-bottom: 20px;
-
+    display: inline;
+}
+.counter-box-item-child > h2{
+    margin-bottom: 0px;
+}
+.counter-box-item-child > .plus-icon::after{
+    content: '+';
+}
+.remove-plus::after{
+    content: '';
 }
 .counter-box-item-child > p{
     color: white;
