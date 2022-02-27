@@ -90,4 +90,66 @@
         font-weight: 400;
         line-height: 25px;
     }
+
+    /* Accordian Section */
+    .accordion-border{
+        border: 1px solid #DADCE0;
+    }
+    .accordion-button{
+        width: 280px !important;
+    }
+    .accordian-button-text{
+        font-size: 14px;
+        line-height: 19.6px;
+        font-weight: 600;
+    }
+    .accordion-body > strong{
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 22.1px;
+    }
+    .accordion-body > p{
+        font-size: 13px;
+        font-weight: 500px;
+        line-height: 22.1px;
+    }
+    .accordion-list > li{
+        font-size: 13px;
+        font-weight: 500px;
+        line-height: 22.1px;
+    }
+
+
+    /* Counter Style */
+.counter-box-item-child{
+    padding: 10px 0px 10px 0px;
+    width: 142px;
+}
+
+/* Counter Download Box */
+    .counter-download-box{
+        padding: 0px 16px 0px 16px;
+        border-radius: 10px;
+        box-shadow: 0px 12px 14px -6px rgb(0 0 0 / 15%);
+    }
+    .download-box{
+        padding: 15px 0px;
+    }
+
+    .counter-download-title{
+        font-size: 24px !important;
+        line-height: 33.6px !important;
+        font-weight: 500;
+    }
+    .download-box > p {
+        font-size: 14px;
+        font-weight: 300;
+        color: #222222;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 16px;
+        padding-bottom: 16px;
+    }
+    .counter-button{
+        padding: 10px 15px 10px 15px;
+    }
 }
