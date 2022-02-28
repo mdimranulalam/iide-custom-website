@@ -296,4 +296,35 @@
         right: -40px;
     }
 
+
+    /* Form Reg Fees Text*/
+    .reg-fees-text{
+        font-size: 16px;
+        text-align: center;
+    }
+    .font-bold-text{
+        text-align: center;
+    }
+    .form-item{
+        margin-right: 0px !important;
+        padding: 20px 20px 20px 40px;
+    }
+    .include-title > h5{
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 15px;
+    }
+    .included-list > ul > li{
+    font-size: 14px;
+    }
+
+    /* Form Input Side */
+    
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px)  {
+    .review-item{
+        width: 510px;
+    }
 }
