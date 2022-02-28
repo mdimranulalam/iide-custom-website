@@ -305,9 +305,12 @@
     .font-bold-text{
         text-align: center;
     }
+    .form-item-bg{
+        width: 100%;
+    }
     .form-item{
         margin-right: 0px !important;
-        padding: 20px 20px 20px 40px;
+        padding: 20px 20px 20px 20px;
     }
     .include-title > h5{
         font-size: 15px;
@@ -315,12 +318,32 @@
         line-height: 15px;
     }
     .included-list > ul > li{
-    font-size: 14px;
+        font-size: 14px;
+        padding-left: 20px;
     }
 
     /* Form Input Side */
-    
-
+    .form-title{
+        font-size: 23px;
+        line-height: 27.6px;
+    }
+    .form-nb{
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 14px;
+        padding-bottom: 10px;
+    }
+    .input-field{
+        height: 40px;
+        line-height: 30px;
+        width: 100%;
+    }
+    .input-margin-top{
+        margin-top: 14px;
+    }
+    .agreement-form{
+        font-size: 15px !important;
+    }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px)  {
