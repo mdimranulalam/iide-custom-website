@@ -186,11 +186,11 @@
         background-color: white;
         margin-right: 20px;
     }
-    .mentors-scrolling{
+    /* .mentors-scrolling{
         width: max-content;
         flex-wrap: unset;
-        /* overflow: hidden; */
-    }
+        overflow: scroll;
+    } */
 
 
     /* Section-4  */
@@ -213,10 +213,11 @@
     .student-work-description{
         font-size: 14px;
     }
-    .student-scrolling{
+    /* .student-scrolling{
         width: max-content;
         flex-wrap: nowrap;
-    }
+        overflow: scroll;
+    } */
     .student{
         margin-right: 30px;
     }
@@ -245,10 +246,11 @@
         font-size: 14px;
     }
 
-    .s-mentor-image{
+    /* .s-mentor-image{
         flex-wrap: nowrap;
         width: fit-content;
-    }
+        overflow: scroll;
+    } */
     .super-mentor-image{
         margin-right: 30px;
     }
@@ -405,7 +407,34 @@
     .custom-padding-top{
         padding-top: 20px !important;
     }
+
+
+
+
+
+
+    /* Scroll Testing for */
+    .mentors-scrolling{
+        display: block;
+        width: 100%;
+        overflow-x: scroll;
+    }
+    .mentors{
+        display: block;
+        white-space: nowrap;
+        width: max-content;
+    }
+    .mentor{
+        display: inline-block;
+    }
+    .student{
+        display: inline-block;
+    }
+    .super-mentor-image{
+        display: inline-block;
+    }
 }
+
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px)  {
     .review-item{
