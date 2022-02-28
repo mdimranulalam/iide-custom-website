@@ -1053,3 +1053,12 @@ h1,h2,h3,h4,h5,h6{
 .modal-form-input{
     width: 250px;
 }
+
+
+#thank-you-message {
+  display: none;
+}
+
+#thank-you-message.show {
+  display: block;
+}
