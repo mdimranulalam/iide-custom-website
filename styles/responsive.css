@@ -344,6 +344,15 @@
     .agreement-form{
         font-size: 15px !important;
     }
+
+    /* Section-9 */
+    .section-9{
+        padding-top: 20px;
+    }
+    .placement-record-description{
+        font-size: 14px;
+    }
+
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px)  {
