@@ -353,6 +353,63 @@
         font-size: 14px;
     }
 
+
+
+    /* Section-10 */
+
+
+    /* FAQ Title And Description */
+.deadline{
+    font-weight: bold;
+    color: red;
+    font-family: 'Open Sans' Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-bottom: 10px;
+    line-height: 16px;
+    margin-bottom: 0px;
+}
+.faq-description{
+    color: #000000;
+    font-family: 'Open Sans' Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28.8px;
+}
+
+/* FAQ Timing Card */
+    .faq-card{
+        width: 295px;
+    }
+    .card-faq-deadline{
+        padding-top: 40px;
+        font-size: 16px;
+        font-weight: 700;
+        letter-spacing: -0.5px;
+    }
+    .faq-description{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28.8px;
+        padding-bottom: 20px;
+        letter-spacing: -0.5px;
+    }
+    .card-info-small{
+        color: #fff;
+        font-family: 'Open sans' Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        margin-bottom: 0px;
+    }
+    .card-info-big{
+        color: #fff;
+        font-family: 'Open sans' Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        padding-bottom: 10px;
+        margin-bottom: 0px;
+    }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px)  {
