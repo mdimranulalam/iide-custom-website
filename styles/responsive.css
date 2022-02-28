@@ -181,6 +181,8 @@
 
     .mentor-description{
         font-size: 14px;
+        margin-bottom: 0px;
+        padding-bottom: 20px!important;
     }
     .mentor{
         background-color: white;
@@ -191,7 +193,6 @@
         flex-wrap: unset;
         overflow: scroll;
     } */
-
 
     /* Section-4  */
     #section-4{
@@ -212,6 +213,8 @@
     /* Section-5 */
     .student-work-description{
         font-size: 14px;
+        padding-bottom: 20px;
+        margin-bottom: 0px;
     }
     /* .student-scrolling{
         width: max-content;
