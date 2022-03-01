@@ -444,6 +444,18 @@
     .form-item-bg-margin-remove{
         margin-left: 0px !important;
     }
+    .form-nb-p{
+    text-align: center;
+    width: auto !important;
+    }
+    .fb-button{
+        width: 100%;
+    }
+    .fb-button a{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
 }
 
 
