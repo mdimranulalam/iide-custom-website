@@ -1,4 +1,4 @@
-/* Mobile Device */
+/* Mobile Device 576*/
 @media only screen and (max-width: 576px) {
     /* Section - 1 */
     .section-1{
@@ -175,6 +175,9 @@
     }
 
     /* Mentors */
+    #section-3{
+        background-color:#f8f9fa!important;
+    }
     .section-3-mentors{
         background-color:#f8f9fa!important;
     }
@@ -405,6 +408,465 @@
     .faq-accordion-button{
         font-size: 16px;
         letter-spacing: 0px;
+    }
+
+    .custom-padding-top{
+        padding-top: 20px !important;
+    }
+
+
+
+
+
+
+    /* Scroll Testing for */
+    .mentors-scrolling{
+        display: block;
+        width: 100%;
+        overflow-x: scroll;
+    }
+    .mentors{
+        display: block;
+        white-space: nowrap;
+        width: max-content;
+    }
+    .mentor{
+        display: inline-block;
+    }
+    .student{
+        display: inline-block;
+    }
+    .super-mentor-image{
+        display: inline-block;
+    }
+
+    /* popup form */
+    .form-item-bg-margin-remove{
+        margin-left: 0px !important;
+    }
+}
+
+
+
+
+/* Mobile Device Landscape*/
+@media only screen and (min-width: 577px) and (max-width:812px) {
+    /* Section - 1 */
+    .section-1{
+        background-image: none;
+    }
+    .section-1-padding-hide{
+        padding: 0;
+    }
+    .section-child-1{
+        width: 100% !important;
+    }
+    .main-logo{
+        margin: 0 auto;
+        width: 250.913px;
+    }
+    .main-title{
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 1.2em;
+        padding-top: 20px;
+        text-align: center;
+    }
+    .main-description{
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+    .agreement{
+        text-align: center;
+        padding-bottom: 0;
+    }
+    .agreement p{
+        text-shadow: 1px 1px 24px #2222224d;
+    }
+    .section-1-buttons{
+        padding-top: 0px !important;
+        margin: 0 auto;
+        padding-right: 2rem!important;
+        padding-left: 2rem!important;
+    }
+    .section-1-buttons > button{
+        margin-left: 22px;
+    }
+    .deadline-title{
+        text-align: center;
+    }
+    .mobile-bg-img{
+        background-image: url("../images/IIDE-Homepage-PG-background-2.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        padding-bottom: 300px;
+    }
+    .batch-info-items{
+        flex-wrap: wrap;
+        margin-top: 0px;
+    }
+    
+    .batch-info-title{
+        font-size: 18px;
+    }
+    .batch-info-description{
+        font-size: 14px;
+    }
+    .batch-info{
+        background-color: #f5f5f5 !important;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+
+
+    /* Section-2 Responsive */
+    .title{
+        font-size: 22px;
+        line-height: 33px;
+        padding-bottom: 10px;
+        padding-top: 20px;
+    }
+    #section-2{
+    background-color: white;
+    }
+    .placement-box-item{
+        margin-top: 0px;
+    }
+    .placement-box-item p strong{
+        font-weight: 600 !important;
+        letter-spacing: -0.8px;
+    }
+    .marketing-details{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 25px;
+    }
+
+    /* Accordian Section */
+    .accordion-border{
+        border: 1px solid #DADCE0;
+    }
+    .accordion-button{
+        width: 250px !important;
+    }
+    .accordian-button-text{
+        font-size: 14px;
+        line-height: 19.6px;
+        font-weight: 600;
+    }
+    .accordion-body > strong{
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 22.1px;
+    }
+    .accordion-body > p{
+        font-size: 13px;
+        font-weight: 500px;
+        line-height: 22.1px;
+    }
+    .accordion-list > li{
+        font-size: 13px;
+        font-weight: 500px;
+        line-height: 22.1px;
+    }
+
+
+    /* Counter Style */
+.counter-box-item-child{
+    padding: 10px 0px 10px 0px;
+    width: 142px;
+}
+
+/* Counter Download Box */
+    .counter-download-box{
+        padding: 0px 16px 0px 16px;
+        border-radius: 10px;
+        box-shadow: 0px 12px 14px -6px rgb(0 0 0 / 15%);
+    }
+    .download-box{
+        padding: 15px 0px;
+    }
+
+    .counter-download-title{
+        font-size: 24px !important;
+        line-height: 33.6px !important;
+        font-weight: 500;
+    }
+    .download-box > p {
+        font-size: 14px;
+        font-weight: 300;
+        color: #222222;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 16px;
+        padding-bottom: 16px;
+    }
+    .counter-button{
+        padding: 10px 15px 10px 15px;
+    }
+
+    /* Section- 3 */
+    .tools{
+        row-gap: 50px;
+        flex-wrap: wrap;
+    }
+    .tools-item img{
+        width: 80px;
+    }
+    .button-5{
+        font-size: 20px !important;
+        font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+        font-weight: 700;
+        background-color: #ffffff;
+        color: #0072bd;
+        padding: 10px 30px 10px 30px;
+        line-height: 20px;
+    }
+    .learning-link{
+        height: 160px;
+    }
+
+    /* Mentors */
+    #section-3{
+        background-color:#f8f9fa!important;
+    }
+    .section-3-mentors{
+        background-color:#f8f9fa!important;
+    }
+
+    .mentor-description{
+        font-size: 14px;
+        margin-bottom: 0px;
+        padding-bottom: 20px!important;
+    }
+    .mentor{
+        background-color: white;
+        margin-right: 20px;
+    }
+    /* .mentors-scrolling{
+        width: max-content;
+        flex-wrap: unset;
+        overflow: scroll;
+    } */
+
+    /* Section-4  */
+    #section-4{
+        background-color: white;
+    }
+    .live-project-description{
+        font-size: 14px;
+        text-align: left;
+        width: 100%;
+        padding-top: 30px;
+    }
+    .live-project-item img{
+        width: 450px;
+        height: 200.938px;
+    }
+
+
+    /* Section-5 */
+    .student-work-description{
+        font-size: 14px;
+        padding-bottom: 20px;
+        margin-bottom: 0px;
+    }
+    /* .student-scrolling{
+        width: max-content;
+        flex-wrap: nowrap;
+        overflow: scroll;
+    } */
+    .student{
+        margin-right: 30px;
+    }
+
+    /* Certificate */
+    .certification-description{
+        font-size: 14px;
+    }
+    .certification-item img{
+        padding-top: 30px;
+        width: 300px;
+    }
+
+
+    /* Section-6 */
+    .students-industry-items{
+        padding-top: 0px!important;
+    }
+    .industry-description{
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+
+    /* Section-7 */
+    .super-mentors-description{
+        font-size: 14px;
+    }
+
+    /* .s-mentor-image{
+        flex-wrap: nowrap;
+        width: fit-content;
+        overflow: scroll;
+    } */
+    .super-mentor-image{
+        margin-right: 30px;
+    }
+
+
+    /* Admission Process and Eligibility */
+    .admission-eligibility-buttons{
+        font-size: 14px;
+        line-height: 27.2px;
+        width: 103px;
+        padding: 8px 14px 8px 14px !important;
+    }
+    .admission-eligibility-buttons-position{
+        margin-left: 0px;
+        position: none;
+        top:0;
+    }
+    .admission-eligibility-info{
+        font-size: 14px;
+    }
+
+
+    /* Carousel */
+
+    .review-item{
+        width: 100%;
+        height: 560px;
+    }
+    .student-id-rating{
+        column-gap: 30px;
+    }
+    .student-name-linkedin{
+        padding-top: 10px;
+    }
+    .r-student-title{
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    /* Carusel Icon */
+    .carousel-control-prev-icon {
+        left: -40px;
+    }
+    .carousel-control-next-icon {
+        right: -40px;
+    }
+
+
+    /* Form Reg Fees Text*/
+    .reg-fees-text{
+        font-size: 16px;
+        text-align: center;
+    }
+    .font-bold-text{
+        text-align: center;
+    }
+    .form-item-bg{
+        width: 100%;
+    }
+    .form-item{
+        margin-right: 0px !important;
+        padding: 20px 20px 20px 20px;
+    }
+    .include-title > h5{
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 15px;
+    }
+    .included-list > ul > li{
+        font-size: 14px;
+        padding-left: 20px;
+    }
+
+    /* Form Input Side */
+    .form-title{
+        font-size: 23px;
+        line-height: 27.6px;
+    }
+    .form-nb{
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 14px;
+        padding-bottom: 10px;
+    }
+    .input-field{
+        height: 40px;
+        line-height: 30px;
+        width: 100%;
+    }
+    .input-margin-top{
+        margin-top: 14px;
+    }
+    .agreement-form{
+        font-size: 15px !important;
+    }
+
+    /* Section-9 */
+    .section-9{
+        padding-top: 20px;
+    }
+    .placement-record-description{
+        font-size: 14px;
+    }
+
+
+
+    /* Section-10 */
+
+
+    /* FAQ Title And Description */
+.deadline{
+    font-weight: bold;
+    color: red;
+    font-family: 'Open Sans' Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-bottom: 10px;
+    line-height: 16px;
+    margin-bottom: 0px;
+}
+.faq-description{
+    color: #000000;
+    font-family: 'Open Sans' Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28.8px;
+}
+
+/* FAQ Timing Card */
+    .faq-card{
+        width: 327px;
+    }
+    .card-faq-deadline{
+        padding-top: 40px;
+        font-size: 16px;
+        font-weight: 700;
+        letter-spacing: -0.5px;
+    }
+    .faq-description{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28.8px;
+        padding-bottom: 20px;
+        letter-spacing: -0.5px;
+    }
+
+    
+
+
+    .card-info-small{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .faq-accordion-button{
+        font-size: 16px;
+        letter-spacing: 0px;
+        width: 100%!important;
     }
 
     .custom-padding-top{
