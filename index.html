@@ -2062,20 +2062,20 @@
 
                             <!-- Contact Form -->
                             <div class="contact-form-bg d-flex align-items-center">
-                                <form>
+                                <form method="post" autocomplete="off" name="google-sheet">
                                     <div class="d-flex flex-column flex-md-row justify-content-center">
                                         <!-- First Name -->
-                                        <input type="text" name="" id="" class="input-field me-2 mb-3" placeholder="First Name*" required>
+                                        <input type="text" name="FirstName" id="" class="input-field me-2 mb-3 form-control" placeholder="First Name*" value="" required>
 
                                         <!-- Last Name -->
-                                        <input type="text" name="" id="" class="input-field" placeholder="Last Name*" required>
+                                        <input type="text" name="LastName" id="" class="input-field form-control" placeholder="Last Name*" value="" required>
                                     </div>
 
                                     <div class="d-flex flex-column flex-md-row justify-content-center pb-2">
                                         <!-- Mobile Number -->
-                                        <input type="tel" name="" id="" class="input-field input-margin-top me-2 mb-3" placeholder="Mobile*" required>
+                                        <input type="tel" name="Phone" id="" class="input-field input-margin-top me-2 mb-3 form-control" placeholder="Mobile*" value="" required>
                                         <!-- Email -->
-                                        <input type="email" name="" id="" class="input-field" placeholder="Email*" required>
+                                        <input type="email" name="Email" id="" class="input-field form-control" placeholder="Email*" required>
                                     </div>
                                     <div class="d-flex flex-column align-items-center"> 
                                         <div class="pb-4">
@@ -2084,7 +2084,7 @@
                                                     and Conditions</a> and their <a href="" target="_blank" style="text-decoration:none;">Privacy Policy</a></label>
                                         </div>
                                         <div>
-                                            <input type="submit" class="form-submit-button" value="Submit">
+                                            <input type="submit" name="submit" class="form-submit-button" value="Submit">
                                         </div>
                                     </div>
                                 </form>
@@ -2573,21 +2573,21 @@
                         
                                     <!-- Contact Form -->
                                     <div class="contact-form-bg d-flex align-items-center">
-                                        <form>
+                                        <form method="post" autocomplete="off" name="google-sheet">
                                             <div class="d-flex flex-column flex-md-row justify-content-center">
                                                 <!-- First Name -->
-                                                <input type="text" name="" id="" class="input-field me-2 mb-3 modal-form-input" placeholder="First Name*"
+                                                <input type="text" name="FirstName" id="" class="input-field me-2 mb-3 modal-form-input" placeholder="First Name*"
                                                     required>
                         
                                                 <!-- Last Name -->
-                                                <input type="text" name="" id="" class="input-field modal-form-input" placeholder="Last Name*" required>
+                                                <input type="text" name="LastName" id="" class="input-field modal-form-input" placeholder="Last Name*" required>
                                             </div>
                         
                                             <div class="d-flex flex-column flex-md-row justify-content-center pb-2">
                                                 <!-- Mobile Number -->
-                                                <input type="tel" name="" id="" class="input-field input-margin-top me-2 mb-3 modal-form-input" placeholder="Mobile*" required>
+                                                <input type="tel" name="Phone" id="" class="input-field input-margin-top me-2 mb-3 modal-form-input" placeholder="Mobile*" required>
                                                 <!-- Email -->
-                                                <input type="email" name="" id="" class="input-field modal-form-input" placeholder="Email*" required>
+                                                <input type="email" name="Email" id="" class="input-field modal-form-input" placeholder="Email*" required>
                                             </div>
                                             <div class="d-flex flex-column align-items-center">
                                                 <div class="pb-4">
@@ -2599,7 +2599,7 @@
                                                             style="text-decoration:none;">Privacy Policy</a></label>
                                                 </div>
                                                 <div>
-                                                    <input type="submit" class="form-submit-button" value="Download Now">
+                                                    <input type="submit" name="submit" class="form-submit-button" value="Download Now">
                                                 </div>
                                             </div>
                                         </form>
@@ -2616,14 +2616,15 @@
     </main>
 
 
+    <!-- From Input JS File -->
+    <script src="js/contact-form.js"></script>
+
 
     <!-- Counter Script File -->
     <script src="js/counter.js"></script>
 
-    <!-- From Input JS File -->
-    <script src="js/form-input.js"></script>
-
-
+    
+    
     <!-- Bootstrap JS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
