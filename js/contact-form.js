@@ -1,3 +1,5 @@
+    
+    // Google Sheet connection
     const scriptURL = 'https://script.google.com/macros/s/AKfycbyqwD_J53kPwCkP36biRUYyMPBDD4j20qO0kOPHqu68GwXxOaQutmvwUguLrG6A1JjEZA/exec'
 
     const form = document.forms['google-sheet']
@@ -14,6 +16,9 @@
     })
 
 
+
+    // JS Submission Successful message
+
     $(document).ready(function() {
         $("#myform").submit(function(e) {
             $("#first").hide();
@@ -21,5 +26,5 @@
         });
     });
 
-    
+
 
