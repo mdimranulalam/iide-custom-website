@@ -1059,7 +1059,9 @@ h1,h2,h3,h4,h5,h6{
     color: #222222;
 }
 .feedback-buttons{
-    width: 75%;
+    width: 100%;
+    column-gap: 20px;
+    margin-bottom: 100px;
 }
 .form-item-second-modal-padding-remove{
     padding: 0px;

@@ -2562,135 +2562,92 @@
                                         </div>
                                 </div>
                                 <!-- Contact Form Side -->
-                                <div class="form-item form-item-bg d-flex flex-column align-items-center ms-5 form-item-bg-margin-remove">
-                                    <!-- Form Title -->
-                                    <h3 class="form-title pt-3">Download Course Brochure</h3>
+
+
+                                <div onsubmit="document.getElementById('first').style.display = 'none';document.getElementById('second').style.display = '';">
                                     
-
-                                    <h5 class="form-nb">Final Application Deadline: Mar 10, 2022</h5>
-
-                                    <h5 class="form-nb">Note: The PG Course will be Offline and also available Online.</h5>
-                        
-                                    <!-- Contact Form -->
-                                    <div class="contact-form-bg d-flex align-items-center">
-                                        <form method="post" autocomplete="off" name="google-sheet-2" onsubmit=alert(imran)>
-                                            <div class="d-flex flex-column flex-lg-row justify-content-center">
-                                                <!-- First Name -->
-                                                <input type="text" name="FirstName" id="" class="input-field me-2 mb-3 modal-form-input" placeholder="First Name*"
-                                                    required>
-                        
-                                                <!-- Last Name -->
-                                                <input type="text" name="LastName" id="" class="input-field modal-form-input" placeholder="Last Name*" required>
-                                            </div>
-                        
-                                            <div class="d-flex flex-column flex-lg-row justify-content-center pb-2">
-                                                <!-- Mobile Number -->
-                                                <input type="tel" name="Phone" id="" class="input-field input-margin-top me-2 mb-3 modal-form-input" placeholder="Mobile*" required>
-                                                <!-- Email -->
-                                                <input type="email" name="Email" id="" class="input-field modal-form-input" placeholder="Email*" required>
-                                            </div>
-                                            <div class="d-flex flex-column align-items-center">
-                                                <div class="pb-4">
-                                                    <input type="checkbox" name="agreement" id="agreement" checked>
-                                                    <label for="agreement" style="font-size: 15px;">I agree to IIDE's <a
-                                                            href="https://iide.co/terms-and-conditions/?PG_Course" target="_blank"
-                                                            style="text-decoration:none;">Terms
-                                                            and Conditions</a> and their <a href="" target="_blank"
-                                                            style="text-decoration:none;">Privacy Policy</a></label>
-                                                </div>
-                                                <div>
-                                                    <input type="submit" name="submit" class="form-submit-button" value="Download Now" data-bs-target="#myModal2" data-bs-toggle="modal" data-bs-dismiss="#myModal">
-                                                </div>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-
-
-
-        <!-- Modal submission message -->
-
-
-
-
-        <div class="modal modal-z-index" id="myModal2" role="dialog">
-
-            <div class="modal-dialog modal-dialog-centered modal-xl" id="myModal">
-                <div class="modal-content">
-                    <div class="d-flex justify-content-end" style="position: absolute; left: 1065px">
-                        <div class="d-flex justify-content-end modal-close-button-bg">
-                            <button type="button" class="btn-close modal-close-button" data-bs-dismiss="modal"></button>
-                        </div>
-                    </div>
-                    
-                    <div class="modal-body modal-body-no-padding">
-                        <div class="form-section" id="contact-form">
-                            <div class="form-bg d-flex flex-row flex-sm-column flex-lg-row flex-lg-row">
-                                <div class="form-item d-none d-lg-block form-left-bg me-5 modal-form-left">
-                                    
-                                        <!-- Batch Details  -->
-                                        <div class="batch-details pt-5">
-                                            <!-- Batch Details Title -->
-                                            <h1 class="batch-details-title">Batch Details</h1>
+                                    <div class="form-item form-item-bg d-flex flex-column align-items-center ms-5 form-item-bg-margin-remove">
                                         
-                                            <div>
-                                                <table class="w-100 modal-table">
-                                                    <tbody>
-                                                        <tr>
-                                                            <td>Duration</td>
-                                                            <td>11 Months</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Days</td>
-                                                            <td>Mon - Fri</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Timing</td>
-                                                            <td>8:00 AM - 11:00 AM (IST)</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Start Date</td>
-                                                            <td>Mar 21, 2022</td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
+                                        <div id="first" style="display: '';">
+                                            <!-- Form Title -->
+                                            <h3 class="form-title pt-3">Download Course Brochure</h3>
+                                            
+                                            
+                                            <h5 class="form-nb">Final Application Deadline: Mar 10, 2022</h5>
+                                            
+                                            <h5 class="form-nb">Note: The PG Course will be Offline and also available Online.</h5>
+                                            
+                                            <!-- Contact Form -->
+                                            <div class="contact-form-bg d-flex align-items-center">
+                                                <form method="post" autocomplete="off" name="google-sheet-2">
+                                                    <div class="d-flex flex-column flex-lg-row justify-content-center">
+                                                        <!-- First Name -->
+                                                        <input type="text" name="FirstName" id="" class="input-field me-2 mb-3 modal-form-input"
+                                                            placeholder="First Name*" required>
+                                            
+                                                        <!-- Last Name -->
+                                                        <input type="text" name="LastName" id="" class="input-field modal-form-input" placeholder="Last Name*"
+                                                            required>
+                                                    </div>
+                                            
+                                                    <div class="d-flex flex-column flex-lg-row justify-content-center pb-2">
+                                                        <!-- Mobile Number -->
+                                                        <input type="tel" name="Phone" id="" class="input-field input-margin-top me-2 mb-3 modal-form-input"
+                                                            placeholder="Mobile*" required>
+                                                        <!-- Email -->
+                                                        <input type="email" name="Email" id="" class="input-field modal-form-input" placeholder="Email*" required>
+                                                    </div>
+                                                    <div class="d-flex flex-column align-items-center">
+                                                        <div class="pb-4">
+                                                            <input type="checkbox" name="agreement" id="agreement" checked>
+                                                            <label for="agreement" style="font-size: 15px;">I agree to IIDE's <a
+                                                                    href="https://iide.co/terms-and-conditions/?PG_Course" target="_blank"
+                                                                    style="text-decoration:none;">Terms
+                                                                    and Conditions</a> and their <a href="" target="_blank" style="text-decoration:none;">Privacy
+                                                                    Policy</a></label>
+                                                        </div>
+                                                        <div>
+                                                            <input type="submit" name="submit" class="form-submit-button" value="Download Now" id="myform">
+                                                        </div>
+                                                    </div>
+                                                </form>
                                             </div>
                                         </div>
-                                </div>
-                                <!-- Contact Form Side -->
-                                <div class="form-item form-item-bg d-flex flex-column align-items-center ms-5 form-item-bg-margin-remove form-item-second-modal-padding-remove">
-                                    <!-- Form Title -->
-                                    <h3 class="form-title pt-3 form-title-sb pt-1 pt-md-5 mt-1 mt-md-5">Thank You!</h3>
-                                    
-
-                                    <p class="form-nb-p">You would have received an email about the program details on the email ID you provided. If you haven’t received it,
-                                    please check your spam/promotional inbox and move it to your primary inbox.</p>
-
-                                    <p class="form-nb-p pb-3">Meanwhile, do check out the following</p>
-                                    
-                                    <div class="feedback-buttons d-flex justify-content-center flex-column flex-sm-row justify-content-sm-between pb-1 mb-1 pb-md-5 mb-md-5">
-                                        <div class="fb-button">
-                                            <a href="https://iide.co/digital-marketing-career-opportunities/" type="button" class="btn btn-outline-primary" target="_blank">Placements</a>
-                                        </div>
-
-                                        <div class="fb-button">
-                                            <a href="https://iide.co/students-life-at-iide/" type="button" class="btn btn-outline-primary" target="_blank">Student Life at IIDE</a>
-                                        </div>
-
-                                        <div class="fb-button">
-                                            <a href="https://iide.co/digital-marketing-reviews/" target="_blank" type="button" class="btn btn-outline-primary">Testimonials</a>
-                                        </div>
+                                        
                                     </div>
 
+
+                                    <div>
+                                        <div id="second" style="display: none;">
+                                            <!-- Form Title -->
+                                            <h3 class="form-title form-title-sb">Thank You!</h3>
+                                        
+                                        
+                                            <p class="form-nb-p">You would have received an email about the program details on the email ID you provided. If you
+                                                haven’t received it,
+                                                please check your spam/promotional inbox and move it to your primary inbox.</p>
+                                        
+                                            <p class="form-nb-p pb-3">Meanwhile, do check out the following</p>
+                                        
+                                            <div
+                                                class="feedback-buttons d-flex justify-content-center flex-column flex-sm-row justify-content-sm-center pb-3">
+                                                <div class="fb-button">
+                                                    <a href="https://iide.co/digital-marketing-career-opportunities/" type="button"
+                                                        class="btn btn-outline-primary" target="_blank">Placements</a>
+                                                </div>
+                                        
+                                                <div class="fb-button">
+                                                    <a href="https://iide.co/students-life-at-iide/" type="button" class="btn btn-outline-primary"
+                                                        target="_blank">Student Life at IIDE</a>
+                                                </div>
+                                        
+                                                <div class="fb-button">
+                                                    <a href="https://iide.co/digital-marketing-reviews/" target="_blank" type="button"
+                                                        class="btn btn-outline-primary">Testimonials</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

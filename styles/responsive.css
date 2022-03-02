@@ -449,12 +449,14 @@
     width: auto !important;
     }
     .fb-button{
-        width: 100%;
+        width: 50%;
+        margin: 0 auto;
     }
     .fb-button a{
         width: 100%;
         margin-bottom: 20px;
     }
+
 
 }
 
